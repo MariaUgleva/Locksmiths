@@ -1,0 +1,153 @@
+@media (max-width: 1024px) {
+  .box {
+    max-width: 900px;
+    padding: 0 30px;
+  }
+  .header {
+    &__container {
+      padding: 47px 57px 0;
+    }
+    &__logo {
+        font-size: 28px;
+        line-height: 28px;
+      }
+      &-dropdown {
+        display: block;
+
+      }
+      &__navbar {
+        display: none;
+      }
+  }
+  .main {
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main__content {
+    margin-top: 100px;
+  }
+  .main__img {
+    background-position: center;
+  }
+  .call-form {
+    padding: 56px;
+    height: auto;
+    &__inner {
+      flex-direction: column;
+      width: 100%;
+    }
+    &__input,
+    &__btn {
+      margin: 10px auto;
+    }
+  }
+  .statistic_left .statistic__item {
+    max-width: 225px;
+  }
+  .price {
+    &__title {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    &__cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .card {
+    margin-bottom: 50px;
+  }
+  .gallery {
+    margin-top: 50px;
+    &__item {
+      width: 50%;
+      flex-grow: 1;
+    }
+  }
+  .footer {
+    &__contacts {
+      padding: 0 200px;
+    }
+    &__flex {
+      flex-direction: column;
+      margin-bottom: 0;
+      align-items: center;
+    }
+    &__item {
+      margin: 20px 0;
+    }
+    &__item-location span {
+      padding-left: 75px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .header__logo {
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+  }
+  .header__container {
+    padding: 27px 20px 0;
+  }
+  .main {
+    margin-top: 0;
+    padding-top: 0;
+    &__img {
+      width: 80%;
+    }
+    &__content {
+      margin-top: 50px;
+    }
+    &__title {
+      font-size: 40px;
+    }
+    &__btn {
+      padding: 20px 75px;
+      margin: 30px auto 0;
+    }
+  }
+  .carousel__img {
+      width: 100px;
+  }
+  .statistic {
+    &__item {
+      margin: 15px 0;
+           
+    }
+    &_left {
+        justify-content: center;
+        text-align: center;
+    }
+  }
+  .call-form {
+      &__input{
+        width: 100%;
+      }
+      &__btn {
+          margin: 20px auto;
+      }
+  }
+.extra {
+    margin-top: 60px;
+    margin-bottom: 75px;
+}
+  .gallery {
+    &__item {
+      width: 100%;
+    }
+  }
+  .footer {
+      &__contacts {
+          padding: 0 30px;
+      }
+      &__title {
+          font-size: 30px;
+      }
+      &__item {
+          font-size: 20px;
+      }
+  }
+}
